@@ -1,6 +1,6 @@
 # version_util
 
-Description: Simple version utility shell.
+Description: Scripts for handling version things.
 
 ## Goal
 
