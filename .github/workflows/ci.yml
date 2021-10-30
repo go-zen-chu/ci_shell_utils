@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Run ShellCheck for all scripts
+      uses: ludeeus/action-shellcheck@master
     - name: Test scripts
       run: |
         ls
